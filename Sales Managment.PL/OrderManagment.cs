@@ -23,7 +23,7 @@ namespace Sales_Managment.PL
         public void RetrieveAllOrders()
         {
            var Orders =  OrderRepository.GetAll();
-           OrderRepository.PrintOrders(null , Orders);
+            OrderRepository.PrintOrders(null, Orders);
         }
 
         public  void MakeOrder(int CartId , int CustomerId)
@@ -45,7 +45,7 @@ namespace Sales_Managment.PL
                     },
                     Carrier = new Carrier
                     {
-                        Name = "Amgad",
+                        Name = "Raeph",
                         PhoneNumber = "0120236541"
                     },
                     OrderStatus = OrderStatus.Processing.ToString(),
